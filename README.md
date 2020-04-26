@@ -100,3 +100,25 @@ http://www.postgresqltutorial.com/postgresql-limit/)
     - оптимизируйте запрос, сократив время обработки до максимум **15мс** 
 - сделайте **построчное** описание *explain analyze* на русском языке оптимизированного запроса. Описание строк 
 в *explain* можно посмотреть тут - [https://use-the-index-luke.com/sql/explain-plan/postgresql/operations]
+
+
+
+## Домашнее задание по теме "NoSQL & MongoDB"
+База данных: создается в терминале  
+### Основная часть:
+
+Ссылка на терминал для работы с *MongoDB* [https://docs.mongodb.com/manual/tutorial/getting-started/]  
+- создать свою базу данных
+- создать коллекцию пользователей
+- добавить информацию по **2-м** людям с полями *фамилия*, *имя* и *контактная информация* (как вложенный объект
+[https://docs.mongodb.com/manual/core/document/#embedded-documents])
+
+### Дополнительная часть:
+
+- вывести **количество контактов** у каждого пользователя, ссылки на документацию:
+    - https://docs.mongodb.com/manual/reference/operator/aggregation/
+    - https://docs.mongodb.com/manual/reference/operator/aggregation/size/
+    - https://docs.mongodb.com/manual/reference/operator/aggregation/objectToArray/
+    - https://docs.mongodb.com/manual/reference/operator/aggregation/project/
+    - https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/
+    
